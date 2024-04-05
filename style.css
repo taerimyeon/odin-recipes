@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+h1, h2 {
+    color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+ul, ol {
+    li {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+h1 {
+    text-align: center;
+}
