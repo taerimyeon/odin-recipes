@@ -2,10 +2,20 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(66, 66, 66);
     color: white;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 h1, h2 {
     color: aquamarine;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 40px;
 }
 
 a {
@@ -18,8 +28,29 @@ ul, ol {
         padding-top: 3px;
         padding-bottom: 3px;
     }
+    margin-bottom: 40px;
 }
 
 h1 {
     text-align: center;
+}
+
+img {
+    width: 320px;
+    height: 480px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.recipe-card {
+    display: inline-block;
+    color: antiquewhite;
+    max-width: 240px;
+}
+
+.img-recipe-card {
+    width: 240px;
+    height: 320px;
 }
